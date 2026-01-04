@@ -9,7 +9,7 @@ weight: 20
 
 <div class="profile-wrap">
 
-![Zihe Gong](/images/profile.jpg)
+![Zihe Gong](/GONGZIHE/images/profile.jpg)
 
 </div>
 
