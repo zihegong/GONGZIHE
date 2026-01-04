@@ -150,3 +150,24 @@ html, body, button, input, textarea {
   .home-albums-grid{ grid-template-columns: 1fr; }
   .home-featured-title{ font-size: 1.6rem; }
 }
+
+/* FINAL OVERRIDE — About avatar (LARGER, hero-like) */
+html body .about-page .profile-wrap img,
+html body .about-page .profile-wrap p img {
+  width: min(45vw, 520px) !important;   /* ⬅️ 明显放大 */
+  aspect-ratio: 1 / 1 !important;
+  height: auto !important;
+  border-radius: 9999px !important;
+  object-fit: cover !important;
+  display: block !important;
+  margin: 64px auto 32px !important;
+}
+
+/* Mobile */
+@media (max-width: 768px){
+  html body .about-page .profile-wrap img,
+  html body .about-page .profile-wrap p img {
+    width: min(82vw, 380px) !important;
+    margin: 48px auto 24px !important;
+  }
+}
