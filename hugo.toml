@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://zihegong.github.io/GONGZIHE/"
 languageCode = "en-us"
 title = "Zihe Gong"
 theme = "gallery"
