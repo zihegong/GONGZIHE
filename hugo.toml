@@ -1,0 +1,20 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Zihe Gong"
+theme = "gallery"
+
+[params]
+  title = "Zihe Gong"
+  description = "Product designer working across homewares, accessories, and textiles."
+  showMenu = true
+  custom_css = ["css/custom.css"]
+  defaultTheme = "light"
+  mainSections = ["albums"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
