@@ -1,4 +1,6 @@
 ---
+build:
+  list: never
 title: "About"
 slug: "about"
 menus: ["main"]
