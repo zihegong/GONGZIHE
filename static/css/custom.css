@@ -171,3 +171,9 @@ html body .about-page .profile-wrap p img {
     margin: 48px auto 24px !important;
   }
 }
+/* About figure shortcode compatibility */
+html body .about-page figure.profile-photo,
+html body .about-page figure.profile-photo img{
+  border-radius: 9999px !important;
+  overflow: hidden !important;
+}

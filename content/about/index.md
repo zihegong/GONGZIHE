@@ -1,17 +1,18 @@
 ---
-build:
-  list: never
 title: "About"
 slug: "about"
 menus: ["main"]
 weight: 20
+_build:
+  render: always
+  list: never
 ---
 
 <div class="about-page">
 
 <div class="profile-wrap">
 
-![Zihe Gong](/GONGZIHE/images/profile.jpg)
+{{< figure src="/GONGZIHE/images/profile.jpg" alt="Zihe Gong" class="profile-photo" >}}
 
 </div>
 
