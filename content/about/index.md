@@ -1,8 +1,12 @@
 ---
 title: "About"
 slug: "about"
-menus: ["main"]
-weight: 20
+type: "page"
+layout: "single"
+menu:
+  main:
+    name: "About"
+    weight: 20
 _build:
   render: always
   list: never
